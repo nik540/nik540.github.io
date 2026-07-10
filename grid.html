@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="main.js"></script>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=n1">
+	<title>grid</title>
+	<!-- HTML -->
+	<!-- Custom Styles -->
+	<link rel="stylesheet" href="style_1.css">
+</head>
+
+<body>
+
+	<header>
+		<nav>
+			<p>
+				<a href="VSC.html">VSC</a>
+				<a href="figma.html">Figma</a>
+				<a href="element.html">element</a>
+				<a href="atribut.html">атрибуты</a>
+				<a href="CSS.html">CSS</a>
+				<a href="practica.html">практика</a>
+				<a href="flexbox.html">flexbox</a>
+				<a href="grid.html">grid</a>
+				<a href="item.html">item</a>
+
+			</p>
+		</nav>
+	</header>
+
+	<main>
+
+		<h2>grid</h2>
+
+		<h4>Варианты объявления grid-контейнера</h4>
+
+		<div class="grid">
+			<div class="grid_1">
+				<div class="item_1"><span class="content_1">display:</span></div>
+				<div class="item_2">
+					<a href="aa:display:grid;" class="content_2">grid;</a><span class="content_3">|</span>
+					<a href="aa:display:inline-grid;" class="content_2">
+						inline-grid;
+					</a>
+				</div>
+			</div>
+			<div class="grid_2">
+				<div class="item_1"><span class="content_1">генерирует grid-контейнер:</span></div>
+				<div class="item_2"><span class="content_2">уровня блок;</span> <span class="content_3">|</span> <span
+						class="content_2">уровня строка;</span></div>
+			</div>
+		</div>
+
+		<h4>Определение явной сетки</h4>
+
+		<div class="grid">
+			<div class="grid_1">
+				<div class="item_1"><span class="content_1">grid-template-rows:</span></div>
+				<div class="item_2"><span class="content_2">fr;</span><span class="content_3">|</span><span
+						class="content_2">%;</span><span class="content_3">|</span><span class="content_2">minmax</span><span
+						class="content_3">|<span class="content_2">auto</span><span class="content_3">|</span>
+						<span class="content_2">repeat</span><span class="content_3">|</span><span
+							class="content_2">repeat+auto-fill+minmax</span><span class="content_3">|</span><span
+							class="content_2">repeat+auto-fit+minmax</span><span class="content_3">|</span><span
+							class="content_2">areas</span></div>
+			</div>
+			<div class="grid_2">
+				<div class="item_1"><span class="content_1">количество строк:</span></div>
+				<div class="item_2"><span class="content_2"></span></div>
+			</div>
+		</div>
+
+		<div class="grid">
+			<div class="grid_1">
+				<div class="item_1"><span class="content_1">grid-template-colums:</span></div>
+			</div>
+			<div class="grid_2">
+				<div class="item_1"><span class="content_1">количество столбцов:</span></div>
+			</div>
+		</div>
+
+		<div class="grid">
+			<div class="grid_1">
+				<div class="item_1"><span class="content_1">grid-template:</span></div>
+			</div>
+			<div class="grid_2">
+				<div class="item_1"><span class="content_1">сокращенное свойства количества строк/столбцов:</span></div>
+			</div>
+		</div>
+
+		<div class="grid">
+			<div class="grid_1">
+				<div class="item_1"><span class="content_1">grid-template-areas:</span></div>
+			</div>
+			<div class="grid_2">
+				<div class="item_1"><span class="content_1">создает grid-области путем размещения именованных ячеек в
+						грид-раскладке:</span></div>
+			</div>
+		</div>
+
+		<h4 class="h4_grid">Определение неявной сетки</h4>
+
+		<div class="grid">
+			<div class="grid_1">
+				<div class="item_1"><span class="content_1">grid-auto-columns:</span></div>
+			</div>
+			<div class="grid_2">
+				<div class="item_1"><span class="content_1">устанавливает размер неявных столбцов:</span></div>
+			</div>
+		</div>
+
+		<div class="grid">
+			<div class="grid_1">
+				<div class="item_1"><span class="content_1">grid-auto-rows:</span></div>
+			</div>
+			<div class="grid_2">
+				<div class="item_1"><span class="content_1">устанавливает размер неявных строк:</span></div>
+			</div>
+		</div>
+
+		<div class="grid">
+			<div class="grid_1">
+				<div class="item_1"><span class="content_1">grid-auto-flow:</span></div>
+			</div>
+			<div class="grid_2">
+				<div class="item_1"><span class="content_1">управляет размещением неявных элементов:</span></div>
+			</div>
+		</div>
+
+		<h4>Выравнивание содержимого вдодль горизонтальной оси</h4>
+
+		<div class="grid">
+			<div class="grid_1">
+				<div class="item_1"><span class="content_1">justify-items:</span></div>
+				</justify-items>
+			</div>
+			<div class="grid_2">
+				<div class="item_1"><span class="content_1">выравнивает содержимое вдоль оси строки:</span></div>
+			</div>
+		</div>
+
+		<h4>Выравнивание содержимого вдоль вертикальной оси</h4>
+
+		<div class="grid">
+			<div class="grid_1">
+				<div class="item_1"><span class="content_1">align-items:</span></div>
+			</div>
+			<div class="grid_2">
+				<div class="item_1"><span class="content_1">выравнивает содержимое вдоль вертикальной оси:</span></div>
+			</div>
+		</div>
+
+		<h4>Выравнивание сетки вдоль горизонтальной оси</h4>
+
+		<div class="grid">
+			<div class="grid_1"><span class="content_1">justify-content:</span></div>
+			<div class="grid_2">
+				<div class="item_1"><span class="content_1">выравнивает сетку вдоль горизонтальной оси:</span></div>
+			</div>
+		</div>
+		<h4>Выравнивание сетки вдоль вертикальной оси</h4>
+
+		<div class="grid">
+			<div class="grid_1">
+				<div class="item_1"><span class="content_1">align-content:</span></div>
+			</div>
+			<div class="grid_2">
+				<div class="item_1"><span class="content_1">выравнивает сетку вдоль вертикальной оси:</span></div>
+			</div>
+		</div>
+
+		<h4>Свойства элементов грид-сетки</h4>
+
+	</main>
+
+	<footer>
+		<nav>
+			<p>
+				<a href="VSC.html">VSC</a>
+				<a href="figma.html">Figma</a>
+				<a href="element.html">element</a>
+				<a href="atribut.html">атрибуты</a>
+				<a href="CSS.html">CSS</a>
+				<a href="practica.html">практика</a>
+				<a href="flexbox.html">flexbox</a>
+				<a href="grid.html">grid</a>
+				<a href="item.html">item</a>
+
+			</p>
+		</nav>
+	</footer>
+
+</body>
+
+</html>
