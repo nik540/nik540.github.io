@@ -26,6 +26,18 @@ body {
 	/* grid-area: main; */
 }
 
+.n3 {
+    /*display: inline-block; */
+    font-style: italic;
+    position:relative; 
+    color: grey;
+    width: 20pt;
+    padding-right: 5pt;
+    margin-right: 20pt;
+} 
+
+
+
 /* .aside {
 	grid-area: aside;
 } */
