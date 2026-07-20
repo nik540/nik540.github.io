@@ -155,7 +155,8 @@ body {
 .grid {
 	margin-left: 2px;
 	display: grid;
-	grid-template: auto/1fr 1fr 1fr;
+	grid-template: auto/1fr 1fr;
+  /*	1fr;*/
 	/* justify-items: end; */
 	/* justify-content: end; */
 	/* align-items: 0; */
